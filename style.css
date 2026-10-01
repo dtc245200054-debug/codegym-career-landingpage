@@ -1,0 +1,26 @@
+/* Enable Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Background image cho Hero Section */
+.hero-bg {
+    background: linear-gradient(rgba(10, 25, 47, 0.75), rgba(10, 25, 47, 0.85)), 
+                url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1600&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grey-bg {
+    background-color: #f8f9fa;
+}
+
+/* Điều chỉnh khoảng cách Navbar khi đè nội dung */
+.scrolling-navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
